@@ -1,0 +1,414 @@
+.art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttonContainer {
+    margin-bottom: 30px;
+}
+
+.buttonContainer button:hover {
+    cursor: pointer;
+}
+
+.document {
+    height: fit-content;
+    width: 800px;
+    padding: 40px 40px;
+    background-color: white;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper .block {
+    display: flex;
+    align-items: center;
+}
+
+.upper .parameterContainer {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.upper .parameter {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.upper .value {
+    font-size: 10px;
+}
+
+.upper .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.upper .title {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.upper .subtitle {
+    font-size: 9px;
+    text-align: right;
+}
+
+.mainUpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mainUpper .title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mainUpper .bold {
+    font-weight: 700;
+}
+
+.mainUpper .description {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.table1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table1 td {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    width: 30%;
+}
+
+.table1 .image {
+    width: 40%;
+}
+
+.table1 .parameter {
+    font-weight: bold;
+    width: 20%;
+}
+
+.table1 .value {
+    width: 40%;
+}
+
+.table1 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.extraPics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.extraPics div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.extraPics .right {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+}
+
+.confirmacion {
+    line-height: 10px;
+}
+
+.confirmacion span {
+    font-size: 9px;
+}
+
+.firmaSection {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.firmaSection .left {
+    width: 40%;
+}
+
+.firmaSection .left .upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.firmaSection .left .lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    height: 30%;
+}
+
+.firmaSection .left .lower span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.firmaSection .center {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+    width: 20%;
+}
+
+.firmaSection .right {
+    text-align: justify;
+    width: 40%;
+    line-height: 10px;
+    padding: 5px 10px;
+}
+
+.firmaSection .right span:not(.whitespace) {
+    font-size: 8px;
+    color: grey;
+}
+
+.greyFont {
+    color: grey;
+}
+
+.firmaSection .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.firmaSection .center .underMedals {
+    font-size: 8px;
+}
+
+.firmaSection .center .title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.firmaSection .center .subtitle {
+    font-size: 6px;
+}
+
+.datosExtra {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.datosExtra table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.datosExtra td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.datosExtra .firstColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 12%;
+}
+
+.datosExtra .secondColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 13%;
+}
+
+.datosExtra .thirdColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 15%;
+}
+
+.datosExtra .fourthColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 35%;
+}
+
+.datosExtra .qr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.provenienciaTable {
+    margin-top: 30px;
+}
+
+.provenienciaTable table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.provenienciaTable td {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.disclaimer {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.publicacionesTable {
+    margin-bottom: 10px;
+}
+
+.publicacionesTable table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.publicacionesTable td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 3px;
+}
+
+.relevante {
+    margin-bottom: 10px;
+}
+
+.relevante table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.relevante td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    padding-left: 3px;
+}
+
+.artista table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.artista td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 3px;
+}
+
+.provenienciaTable table {
+    width: 100%;
+}
+
+.provenienciaTable td {
+    padding-left: 3px;
+    font-size: 10px;
+    width: 25%;
+}
+
+.greytd {
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(209, 209, 209);
+}
+
+.disclaimerGeneral {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.whitespace {
+    color: white;
+}
+
+.greyspace {
+    color:rgb(209, 209, 209);
+}
+
+.pageJump {
+    margin-top: 130px;
+}
