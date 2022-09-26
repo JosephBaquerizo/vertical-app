@@ -91,7 +91,7 @@ export default function Arte() {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td className={styles.image} rowSpan='11'><Image src={frontal} alt='' width={200} height={200}/></td>
+                                    <td className={styles.image} rowSpan='11'><Image src={frontal} alt='' width={300} height={300}/></td>
                                 </tr>
                                 <tr>
                                     <td className={styles.parameter}>Autor</td>

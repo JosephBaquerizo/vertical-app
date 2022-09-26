@@ -242,7 +242,7 @@
 
 .datosExtra {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 .datosExtra table {
@@ -413,10 +413,4 @@
 
 .pageJump {
     margin-top: 100px;
-}
-
-@media screen and (max-width: 843px) {
-    .document {
-        margin-left: 0px;
-    }
 }
