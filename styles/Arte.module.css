@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 843px) {
-    .document {
+    .documentContainer {
         transform: translateX(30%);
     }
 }
