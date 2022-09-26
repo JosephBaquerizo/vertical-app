@@ -6,14 +6,26 @@
     align-items: center;
     padding: 20px;
     padding-top: 70px;
+    overflow: auto;
 }
 
 .buttonContainer {
-    margin-bottom: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+}
+
+.buttonContainer button {
+    border-radius: 10px;
+    height: 30px;
+    background-color: black;
+    color: white;
 }
 
 .buttonContainer button:hover {
     cursor: pointer;
+    background-color: rgb(40, 40, 40);
 }
 
 .document {
@@ -21,6 +33,13 @@
     width: 800px;
     padding: 40px 40px;
     background-color: white;
+    transform: translateX(0%);
+}
+
+@media screen and (max-width: 843px) {
+    .document {
+        transform: translateX(30%);
+    }
 }
 
 .upper {
@@ -395,7 +414,7 @@
 .disclaimerGeneral {
     font-size: 12px;
     margin-top: 10px;
-    margin-bottom: 190px;
+    margin-bottom: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
