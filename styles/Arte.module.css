@@ -1,11 +1,11 @@
 .art {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     padding-top: 70px;
-    overflow: hidden;
 }
 
 .buttonContainer {
@@ -413,4 +413,10 @@
 
 .pageJump {
     margin-top: 100px;
+}
+
+@media screen and (max-width: 843px) {
+    .document {
+        margin-left: 0px;
+    }
 }

@@ -16,7 +16,7 @@ export default function Arte() {
         const doc = new jsPDF('p', 'pt', 'a4');
         const margin = 10;
         const certificate = document.querySelector('#doc');
-        const scale = (doc.internal.pageSize.width - margin * 2) / certificate.offsetWidth;
+        const scale = (certificate.offsetWidth - margin * 2) / certificate.offsetWidth;
         html2canvas(certificate, {allowTaint: true});
         doc.internal.write(0, "Tw");
         doc.html(certificate, {
