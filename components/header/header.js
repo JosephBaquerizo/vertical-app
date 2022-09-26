@@ -45,6 +45,7 @@ export default function Header() {
             <div className={styles.logo}>
                 <span>VERTICAL</span>
             </div>
+            {/*
             <ul>
                 <li>
                     <Link href='/pdf' passHref>
@@ -66,6 +67,7 @@ export default function Header() {
                     }
                 </li>
             </ul>
+            */}
         </section>
     )
 }
